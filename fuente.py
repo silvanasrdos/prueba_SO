@@ -1,5 +1,5 @@
 import socket
-import random
+#import random
 import hashlib
 
 SERV_PORT = 8080
@@ -11,7 +11,7 @@ def calcular_control(cadena):
 def main():
     try:
         sockfd = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        sockfd.bind(('127.0.0.1', SERV_PORT))
+        sockfd.bind(('192.168.1.21', SERV_PORT)) #probado también con conexión local
         sockfd.listen(5)
         print("[FUENTE]: Esperando conexiones...")
 

@@ -1,7 +1,7 @@
 import socket
 import hashlib
 
-SERVER_ADDRESS = "10.0.11.241"  # Cambia esto a la IP de tu máquina Windows
+SERVER_ADDRESS = '192.168.1.67'  # Cambia esto a la IP de tu máquina Windows
 PORT = 8082
 BUF_SIZE = 100
 
